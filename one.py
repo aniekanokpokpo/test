@@ -15,6 +15,8 @@ def calculate(op, first, second):
         result += str(first - second)
     elif op == '/':
         result += str(first / second)
+    elif op == 'mod':
+        result += str(first % second)
     elif op == 'pow':
         result += str(first ^ second)
     else:

@@ -17,6 +17,8 @@ def calculate(op, first, second):
         result += str(first / second)
     elif op == 'mod':
         result += str(first % second)
+    elif op == 'pow':
+        result += str(first ^ second)
     else:
         result = 'invalid operator. expected x, + or / but received ' + op
 
